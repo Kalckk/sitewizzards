@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "button/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/button"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "button/src/button.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "Button",
+          "parameters": [
+            {
+              "name": "{\n  size = 'medium',\n  primary = true,\n  secondary = false,\n  ...rest\n}",
+              "type": {
+                "text": "ButtonProps"
+              }
+            }
+          ],
+          "description": "The Button component is used to trigger an action or event, such as submitting a form, opening a dialog, canceling an action, or performing a delete operation."
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Button",
+          "declaration": {
+            "name": "Button",
+            "module": "button/src/button.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "button/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "primary"
+        },
+        {
+          "kind": "function",
+          "name": "secondary"
+        },
+        {
+          "kind": "function",
+          "name": "disabled"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "primary",
+          "declaration": {
+            "name": "primary",
+            "module": "button/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "secondary",
+          "declaration": {
+            "name": "secondary",
+            "module": "button/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "disabled",
+          "declaration": {
+            "name": "disabled",
+            "module": "button/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "mdx-layout/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/mdx-layout"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "mdx-layout/src/mdx-layout.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "Layout",
+          "parameters": [
+            {
+              "name": "props"
+            }
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Layout",
+          "declaration": {
+            "name": "Layout",
+            "module": "mdx-layout/src/mdx-layout.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "stories.preview.js",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "parameters",
+          "type": {
+            "text": "object"
+          },
+          "default": "{\n  layout: 'centered',\n}"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "parameters",
+          "declaration": {
+            "name": "parameters",
+            "module": "stories.preview.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "switch/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/switch"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "switch/src/switch.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "Switch",
+          "parameters": [
+            {
+              "name": "{ size = 'medium', ...rest }",
+              "type": {
+                "text": "SwitchProps"
+              }
+            }
+          ],
+          "description": "The Switch component is used as an alternative for the checkbox component. You can switch between enabled or disabled states."
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Switch",
+          "declaration": {
+            "name": "Switch",
+            "module": "switch/src/switch.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "switch/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "switch_"
+        },
+        {
+          "kind": "function",
+          "name": "switch_disabled"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "switch_",
+          "declaration": {
+            "name": "switch_",
+            "module": "switch/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "switch_disabled",
+          "declaration": {
+            "name": "switch_disabled",
+            "module": "switch/stories/index.stories.tsx"
+          }
+        }
+      ]
+    }
+  ]
+}
